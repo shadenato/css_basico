@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            padding-left: 20px;
+        }
+        
+        .titulo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            font-weight: bolder;
+            color: blue;
+            text-decoration: underline 3px solid blue;
+        }
+
+        .lista {
+            border: 2px solid red;
+            width: 30%;
+            padding-left: 10px;
+            background-color: beige;
+        }
+
+        .star {
+            list-style-image:url('star.png');
+            font-size: 18px;
+        }
+
+        .check {
+            list-style-image:url('check.png');
+            font-size: 18px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <p class="titulo">
+        Lista de compras
+    </p>
+
+    <div class="lista">
+        <ul>
+            <li class="star">
+                Café
+            </li>
+            <ul>
+                <li class="check">
+                    Em pó
+                </li>
+                <li class="check">
+                    Solúvel
+                </li>
+            </ul>
+            <li class="star">
+                Açucar
+            </li>
+            <li class="star">
+                Arroz
+            </li>
+            <li class="star">
+                Leite
+            </li>
+            <li class="star">
+                Massa
+            </li>
+            <ul>
+                <li class="check">
+                    Spaguetti
+                </li>
+                <li class="check">
+                    Tagliatelle
+                </li>
+                <li class="check">
+                    Vermicelli
+                </li>
+                <li class="check">
+                    Maccheron
+                </li>
+            </ul>
+        </ul>
+    </div>
+
+
+
+</body>
+</html>
